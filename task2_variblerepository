@@ -1,0 +1,12 @@
+#print('hello guys')
+user=input("Input the filename:")
+if ".py" in user:
+    print("The extension of the file is :'python'")
+elif ".html" in user:
+    print("The extension of the file is :'html'")
+elif ".js" in user:
+    print("The extension of the file is :'javascript'")
+elif ".css" in user:
+    print("The extension of the file is :'Cascading style sheets'")
+else:
+    print("The extension of the file : 'Not found'")
